@@ -1,0 +1,17 @@
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/UnityEngine.dll
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/UnityEditor.dll
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/Mono.Cecil.dll
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/Unity.DataContract.dll
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/obj/Debug/Assembly-CSharp.dll
+/Users/BRETT/Documents/TCNJ/Senior/Second Semester/GamesII/Unity/Soul_Searcher/obj/Debug/Assembly-CSharp.dll.mdb
