@@ -7,12 +7,11 @@ public class MiniGameManager : MonoBehaviour {
 	[SerializeField]  public static bool isPickedUp = false;
 	public  bool isWin = false;
 	public GameObject background1;
-	public GameObject test;
+
 	 
 	// Use this for initialization
 	void Start () {
 		background1.SetActive(false);
-		test.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -23,31 +22,83 @@ public class MiniGameManager : MonoBehaviour {
 		case 0: 
 			if (isPickedUp == true) {
 				background1.SetActive(true);
-				test.SetActive(true);
 				if (isWin == false) {
+					// Enter Game Play
+					Debug.Log("PLAYING THE MINI GAME HERE");
 					
-					if (Input.anyKeyDown) {
+					if (Input.anyKeyDown) { //Enter Win Condition
 						isWin = true;
+						background1.SetActive (false);
+						Debug.Log("I WON THE MINI GAME");
+						isPickedUp = false;
+						minigameNumber += 1;
+
+
+
 					} 
 				} else {
 					isPickedUp = false;
 				}
 
 			}else{
-			background1.SetActive (false);
-			test.SetActive (false);
-//			minigameNumber++;
+
 			}
 			break;
 		
 		case 1:
-			isPickedUp = false;
+			
+			Debug.Log("I AM IN SECOND CASE");
+			if (isPickedUp == true) {
+				Debug.Log("I AM IN SECOND MINI GAME");
+				background1.SetActive(true);
+				if (isWin == false) {
+					// Enter Game Play
+					Debug.Log("PLAYING THE MINI GAME HERE");
+
+					if (Input.anyKeyDown) { //Enter Win Condition
+						isWin = true;
+						background1.SetActive (false);
+						Debug.Log("I WON THE MINI GAME");
+						isPickedUp = false;
+						minigameNumber += 1;
+
+
+
+					} 
+				} else {
+					isPickedUp = false;
+				}
+
+			}else{
+
+			}
 
 			break;
 
 		case 2:
-			isPickedUp = false;
+			if (isPickedUp == true) {
+				background1.SetActive(true);
+				if (isWin == false) {
+					// Enter Game Play
+					Debug.Log("PLAYING THE MINI GAME HERE");
 
+					if (Input.anyKeyDown) { //Enter Win Condition
+						isWin = true;
+						background1.SetActive (false);
+						Debug.Log("I WON THE MINI GAME");
+						isPickedUp = false;
+						minigameNumber += 1;
+
+
+
+					} 
+				} else {
+					isPickedUp = false;
+				}
+
+			}else{
+
+			}
 			break;
 
 		case 3:
