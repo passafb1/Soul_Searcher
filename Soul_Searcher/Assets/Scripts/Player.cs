@@ -104,26 +104,15 @@ namespace Completed
 		//OnTriggerEnter2D is sent when another object enters a trigger collider attached to this object (2D physics only).
 		private void OnTriggerEnter2D (Collider2D other)
 		{
-			//Check if the tag of the trigger collided with is Exit.
-			if(other.tag == "Exit")
-			{
+		/*	//Check if the tag of the trigger collided with is Exit.
+			if (other.tag == "Exit") {
 				//Invoke the Restart function to start the next level with a delay of restartLevelDelay (default 1 second).
 				Invoke ("Restart", restartLevelDelay);
 				
 				//Disable the player object since level is over.
 				enabled = false;
-			}
-			//Check if the tag of the trigger collided with is Food.
-			else if(other.tag == "Soda")
-			{
-				//Call the RandomizeSfx function of SoundManager and pass in two eating sounds to choose between to play the eating sound effect.
-				SoundManager.instance.RandomizeSfx (drinkSound1, drinkSound2);
-
-				//Disable the food object the player collided with.
-				other.gameObject.SetActive (false);
-			}
-			else if(other.tag == "Brain")
-			{
+			}*/
+			 if (other.tag == "Brain") {
 				//Call the RandomizeSfx function of SoundManager and pass in two eating sounds to choose between to play the eating sound effect.
 				SoundManager.instance.RandomizeSfx (drinkSound1, drinkSound2);
 
@@ -131,6 +120,15 @@ namespace Completed
 				other.gameObject.SetActive (false);
 
 				animator.SetTrigger ("BrainIdle");
+			} else if (other.tag == "Heart") {
+				//Call the RandomizeSfx function of SoundManager and pass in two eating sounds to choose between to play the eating sound effect.
+				SoundManager.instance.RandomizeSfx (drinkSound1, drinkSound2);
+				MiniGameManager.isPickedUp = true;
+				Debug.Log ("it is: " + MiniGameManager.isPickedUp);
+				//Disable the food object the player collided with.
+				other.gameObject.SetActive (false);
+
+				animator.SetTrigger ("Heart");
 			}
 			else if(other.tag == "Soul")
 			{
